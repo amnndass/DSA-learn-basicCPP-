@@ -68,7 +68,8 @@ int main(){
 
     //cout << binarySearch(arrr, 5, 2 , 4);
 
-    cout << getPivot(arr2, 8) << endl;
+    //cout << getPivot(arr2, 8) << endl;
+    cout << arr1.size() << endl;
 
     
 
