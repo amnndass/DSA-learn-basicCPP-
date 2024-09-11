@@ -63,7 +63,17 @@ pair<int, int> firstAndLastPosition(vector<int>& arr, int n, int k)
 }
 
 int main(){
-    vector <int> arr = {0 ,0, 1, 1, 2, 2, 2, 2};
-    firstAndLastPosition(arr , 8 , 2);
+    //vector <int> arr = {0 ,0, 1, 1, 2, 2, 2, 2};
+    //firstAndLastPosition(arr , 8 , 2);
+
+    int arr[5] = {0,4,5,7,8};
+    //arr.size();
+
+    cout << sizeof(arr)/sizeof(int) << endl;
+
+    int end = arr[1];
+    int max = sizeof(arr)/sizeof(int) - end;
+    cout << max << endl;
+
     return 0;
 }
