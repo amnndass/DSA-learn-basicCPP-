@@ -51,9 +51,17 @@ int binarySearch(int n, int requirement, vector<int> &arr){
 
 
 int main() {
-    int n = 4;
-    int requirement = 7;
-    std::vector <int> arr = {20 ,15, 10, 17};
+    int n;
+    int requirement;
+    //std::vector <int> arr = {20 ,15, 10, 17};
+    vector<int> arr;
+
+    cin>>n>>requirement;
+    // cin>>arr;
+
+    for(int i = 0; i<n; i++){
+        cin>>arr[i];
+    }
 	cout << binarySearch(n, requirement, arr) << endl;
 
 

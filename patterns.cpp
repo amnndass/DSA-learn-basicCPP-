@@ -192,7 +192,7 @@
 // }
 
 
-// what did i do?????????????
+//what did i do?????????????
 // #include <iostream>
 // using namespace std;
 
@@ -327,52 +327,67 @@
 //     }
     
     
+
+
+
+
 // }
 
-#include <iostream> 
-using namespace std;
 
-int main(){
+
+
+
+
+
+
+
+
+
+
+// #include <iostream> 
+// using namespace std;
+
+// int main(){
     
-    char operation;
-    int num1;
-    int num2;
+//     char operation;
+//     int num1;
+//     int num2;
 
-    cout << "enter num 1" << endl;
-    cin>>num1;
+//     cout << "enter num 1" << endl;
+//     cin>>num1;
 
-    cout << "enter num 2" << endl;
-    cin>>num2;
+//     cout << "enter num 2" << endl;
+//     cin>>num2;
 
-    cout << "enter operation " << endl;
-    cin>>operation;
+//     cout << "enter operation " << endl;
+//     cin>>operation;
 
-    switch (operation)
-    {
-    case '*':
+//     switch (operation)
+//     {
+//     case '*':
         
-        cout << num1*num2 << " answer" << endl;
-        break;
+//         cout << num1*num2 << " answer" << endl;
+//         break;
 
-    case '+':
-        cout << num1 +num2 << " is the answer" << endl;
-        break;
+//     case '+':
+//         cout << num1 +num2 << " is the answer" << endl;
+//         break;
 
-    case '-':
-        cout << num1 - num2 << " is the answer" << endl;
-        break;
+//     case '-':
+//         cout << num1 - num2 << " is the answer" << endl;
+//         break;
 
-    case '/':
-        cout << num1 / num2 << " is the answer" << endl;
-        break;
+//     case '/':
+//         cout << num1 / num2 << " is the answer" << endl;
+//         break;
 
-    case '%':
-        cout << num1 % num2 << " is the answer" << endl;
-        break;
+//     case '%':
+//         cout << num1 % num2 << " is the answer" << endl;
+//         break;
     
-    default:
-        cout << "enter valid operation symbol" << endl;
-        break;
-    }
+//     default:
+//         cout << "enter valid operation symbol" << endl;
+//         break;
+//     }
 
-}
+// }
