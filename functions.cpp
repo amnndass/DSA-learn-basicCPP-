@@ -89,5 +89,6 @@ int main(){
     int n;
     cin>>n;
     cout << isPrime(n) << endl;
+    cout << "good code" << endl;
     return 0;
 }
