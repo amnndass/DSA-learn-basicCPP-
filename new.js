@@ -11,4 +11,14 @@ function recursiveFun(arr, start, end, target){
 }
 
 
-console.log(recursiveFun(arr, start , end, target))
+//console.log(recursiveFun(arr, start , end, target))
+
+var s = "daabcbaabcbc"
+var sub = "a"
+var n = 3;
+while(n!=0){
+    var s = s.replace(sub, "")
+    n--;
+    console.log(s);
+}
+

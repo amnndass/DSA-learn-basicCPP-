@@ -87,12 +87,13 @@ bool isPrime(int n){
 
 int main(){
     int n;
-    cin>>n;
+    //cin>>n;
     //cout << isPrime(n) << endl;
-    cout << "good code" << endl;
+    //cout << "good code" << endl;
     
 
-    cout << 3%3 << endl;
+    //cout << 3%3 << endl;
 
+    cout << tolower('n') << endl;
     return 0;
 }
