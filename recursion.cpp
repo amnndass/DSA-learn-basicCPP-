@@ -15,7 +15,7 @@ int power(int n ){
 
 void print(int n){
     if(n == 0){
-        return;
+        return ;
     }
 
     print(n-1);
